@@ -1,0 +1,469 @@
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.AssemblyReference.cache
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CoreCompileInputs.cache
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll.config
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe.config
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.rsp
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe.config
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.rsp
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.AppContext.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Console.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Http.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.ValueTuple.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe.config
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.rsp
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\virtado4.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.xml
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.xml
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.pdb
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.xml
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.xml
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.pdb
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.xml
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CopyComplete
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\Juan Mavesoy\Desktop\Gestion del Conocimiento\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll.config
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe.config
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.rsp
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe.config
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.rsp
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.AppContext.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Console.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Http.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Sockets.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.ValueTuple.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe.config
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.rsp
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\virtado4.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.xml
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.xml
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.pdb
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.xml
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.xml
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.pdb
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.xml
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.AssemblyReference.cache
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\oscar\Desktop\PoryectoFinalDeGestionDelConocimiento\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll.config
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe.config
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.rsp
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe.config
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.rsp
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.AppContext.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Console.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Http.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe.config
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.rsp
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\virtado4.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.xml
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.xml
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.pdb
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.xml
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.xml
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.pdb
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.xml
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.AssemblyReference.cache
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CoreCompileInputs.cache
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\Edwin\Desktop\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.pdb
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll.config
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.pdb
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe.config
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.rsp
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe.config
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.rsp
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.AppContext.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Collections.Immutable.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Console.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Globalization.Calendars.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Http.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Sockets.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Reflection.Metadata.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.ValueTuple.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe.config
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.rsp
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe.config
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\virtado4.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Services.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Core.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.xml
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.pdb
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.xml
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.xml
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.pdb
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.xml
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.AssemblyReference.cache
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CoreCompileInputs.cache
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.dll
+E:\Edwin\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll.config
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe.config
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.rsp
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe.config
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.rsp
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.AppContext.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Console.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Http.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe.config
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.rsp
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\virtado4.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.xml
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.xml
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.pdb
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.xml
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.xml
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.pdb
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.xml
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.AssemblyReference.cache
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CoreCompileInputs.cache
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\Edwin\Downloads\Gestion del conocimiento\proyecto final\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll.config
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\PoryectoFinalDeGestionDelConocimiento.pdb
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.exe.config
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csc.rsp
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.exe.config
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\csi.rsp
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.AppContext.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Console.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Http.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Net.Sockets.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.ValueTuple.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.exe.config
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\vbc.rsp
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\virtado4.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Interop.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.xml
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\dotNetRDF.Data.Virtuoso.xml
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.pdb
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\HtmlAgilityPack.xml
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Newtonsoft.Json.xml
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.pdb
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\VDS.Common.xml
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.AssemblyReference.cache
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CoreCompileInputs.cache
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.csproj.CopyComplete
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.dll
+C:\Users\1520d\OneDrive - Universidad de la Amazonia\Escritorio\proyecto final ontologia DANI\ONTOLOGIAACADEMIA\PoryectoFinalDeGestionDelConocimiento\obj\Debug\PoryectoFinalDeGestionDelConocimiento.pdb

@@ -1,0 +1,2541 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#"
+     xml:base="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ACADEMIA="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA">
+        <rdfs:comment>ONTOLOFIA PROYECTO FINAL</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CONTIENE_UN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CONTIENE_UN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ENCARGADO_DE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ENCARGADO_DE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#JEFECURSO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTA_ADSCRITO_A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTA_ADSCRITO_A">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ES_CONTRATADO_POR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ES_CONTRATADO_POR">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ES_TOMADO_POR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ES_TOMADO_POR">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#IMPARTIDO_POR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#IMPARTIDO_POR">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#MATRICULA_UN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#MATRICULA_UN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#SE_IMPARTE_EN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#SE_IMPARTE_EN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Numeroestudiantes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Numeroestudiantes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</xsd:minInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#codigo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#codigo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#DIURNO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#DIURNO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#JEFECURSO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#JEFECURSO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PERSONAL"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NOCTURNO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NOCTURNO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#OCACIONAL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#OCACIONAL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PERSONAL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PERSONAL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PROFESOR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PERSONAL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#A_N_avanzado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#A_N_avanzado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bayron"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Beatriz"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Belisario"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Benito"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bernardo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Polania"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramirez"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Esteban"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4103</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#A_N_básico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#A_N_básico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arnulfo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arturo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Asly"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Astrid"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Chacon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lasso"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ximena"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#David"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4101</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#A_N_intermedio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#A_N_intermedio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ayda"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Baltazar"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Barbara"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Catalina"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Facundo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Padilla"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valero"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Esteban"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4102</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Adriana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Adriana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Aleja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Aleja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alejandro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alejandro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alfonso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alfonso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alicia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alicia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alvaro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alvaro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Amalia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Amalia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Amanda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Amanda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anderson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anderson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angélica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angélica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anita -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Annie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Annie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anniuska -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anniuska">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anthony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anthony">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Antonella -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Antonella">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Antonio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Antonio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anvela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anvela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arbenis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arbenis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arbey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arbey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Argio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Argio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ariel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ariel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Armando -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Armando">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Armelina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Armelina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arnold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arnold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arnulfo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arnulfo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arturo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arturo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Asly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Asly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Astrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Astrid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Augusto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Augusto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Aura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Aura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Avala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Avala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ayda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ayda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Baltazar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Baltazar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Barbara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Barbara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bayron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bayron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Beatriz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Beatriz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Belisario -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Belisario">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Benito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Benito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bernardo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bernardo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bocanegra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bocanegra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bolaños -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bolaños">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Calderon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Calderon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Camilo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Camilo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Camilo_sexto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Camilo_sexto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#JEFECURSO"/>
+        <ENCARGADO_DE rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Carolina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Carolina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Carvajal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Carvajal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Catalina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Catalina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cesar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cesar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Chacon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Chacon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Charry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Charry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Chucho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Chucho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Claudia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Claudia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Correa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Correa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cosmo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cosmo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cramen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cramen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cristian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cristian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cristiano_ronaldo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cristiano_ronaldo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#JEFECURSO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Daniel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Daniel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Daniela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Daniela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#David -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#David">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Deivid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Deivid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Diaz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Diaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Eduar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Eduar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elvira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elvira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elvis_preslie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elvis_preslie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#JEFECURSO"/>
+        <ENCARGADO_DE rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <ENCARGADO_DE rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Emilia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Emilia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Enrrique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Enrrique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Escarlet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Escarlet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Esteban -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Esteban">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#OCACIONAL"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_avanzado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_avanzado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Argio"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ariel"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arles"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bocanegra"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Charry"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Oscar"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2103</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_básico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_básico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maicol"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Marin"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pabon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Paola"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Patricia"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Polanco"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Torres"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Trujillo"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Stiven"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2101</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_intermedio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_intermedio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Amalia"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arbenis"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arbey"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Flores"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Guerrero"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yuliza"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Stiven"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2102</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_avanzado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_avanzado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anniuska"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anthony"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Antonio"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anvela"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Kevin"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rivas"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Natalia"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_básico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_básico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Calderon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Diaz"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valderrama"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vanessa"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yisela"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yulithza"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Zapata"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lucia"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_intermedio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_intermedio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angélica"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Anita"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Annie"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cesar"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elvira"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Escarlet"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gasca"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mosquera"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramona"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rocio"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lucia"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Facundo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Facundo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Federico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Federico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Felipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Felipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Fernanda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Fernanda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Fernando -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Fernando">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Flores -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Flores">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#DIURNO"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_avanzado"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_básico"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_intermedio"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_principal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NOCTURNO"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_avanzado"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_básico"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#F_N_intermedio"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_campussocial"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_principal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Francisco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Francisco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#GLORIA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#GLORIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gabriela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gabriela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Garcia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Garcia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gasca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gasca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Guerrero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Guerrero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Guillermo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Guillermo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gustavo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gustavo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Hugo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Hugo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_avanzado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_avanzado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Calderon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Diaz"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vanessa"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yisela"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yulithza"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Zapata"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1103</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_básico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_básico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angie"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Astrid"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Avala"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bolaños"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Carvajal"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gabriela"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1101</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_intermedio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_intermedio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Correa"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Garcia"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lorena"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Perez"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramos"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sánchez"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Tique"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1102</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_avanzado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_avanzado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alicia"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Carolina"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Federico"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Francisco"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Gustavo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ivan"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Javier"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lorenzo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mari"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Marin"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martha"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pabon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Patricia"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Polanco"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rafael"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Torres"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Trujillo"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1003</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_básico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_básico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Aleja"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alejandro"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ana"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Antonella"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Bar"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Camilo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Chucho"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Cosmo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Daniel"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Daniela"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Deivid"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Emilia"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Felipe"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jesus"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jhon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Juan"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Julian"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Laura"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Leidy"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lizarazo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lucas"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luis"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Margoth"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martin"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Matias"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mauricio"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mauro"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Miguel"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Nicolas"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ornela"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Otis"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Paula"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Puff"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Reiner"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rosa"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Samara"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Santiago"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Simon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sol"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sue"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Susana"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Thomas"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valen"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valentina"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Wanda"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yarledy"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1001</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_intermedio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_intermedio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Adriana"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alvaro"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angel"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Angela"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Claudia"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Elena"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Enrrique"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Fernanda"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Fernando"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Guillermo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Hugo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ignacio"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ines"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jorge"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Juana"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Julio"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luciano"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Manrique"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Manuel"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maria"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mario"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martinez"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Melissa"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mendoza"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Motta"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Raul"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ricardo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Roberto"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sara"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Teresa"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vargas"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Veronica"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Victoria"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Andres"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1002</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ignacio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ignacio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#DIURNO"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_avanzado"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_básico"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_intermedio"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_campussocial"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_principal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NOCTURNO"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_avanzado"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_básico"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#I_N_intermedio"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_principal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ivan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ivan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Javier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Javier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jeremy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jeremy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jesus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jesus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jhon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jhon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Joel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Joel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Johan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Johan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jorge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Jorge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Juan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Juan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Juana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Juana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Julian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Julian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Julio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Julio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Kevin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Kevin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lasso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lasso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Laura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Laura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Leidy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Leidy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lizarazo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lizarazo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lorena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lorena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lorenzo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lorenzo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lucas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lucas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luci -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luci">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lucia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lucia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#OCACIONAL"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luciano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luciano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Luis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_avanzado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_avanzado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PRACTICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arnulfo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arturo"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Asly"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Astrid"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Aura"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Chacon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Lasso"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ximena"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mariana"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3003</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_básico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_básico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Calderon"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Diaz"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vanessa"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yisela"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yulithza"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Zapata"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pierre"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3001</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_intermedio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_intermedio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#TEORICA"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Alfonso"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Armando"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Armelina"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Arnold"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Augusto"/>
+        <ES_TOMADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Johan"/>
+        <IMPARTIDO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pierre"/>
+        <Numeroestudiantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Numeroestudiantes>
+        <codigo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3002</codigo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maicol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maicol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maluma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maluma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#JEFECURSO"/>
+        <ENCARGADO_DE rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+        <ENCARGADO_DE rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#DIURNO"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_avanzado"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_básico"/>
+        <CONTIENE_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#M_intermedio"/>
+        <SE_IMPARTE_EN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_campussocial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Manrique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Manrique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Manuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Manuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Margoth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Margoth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Maria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mariana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mariana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Marin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Marin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mario -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mario">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martinez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Martinez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Matias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Matias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mauricio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mauricio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mauro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mauro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Melissa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Melissa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mendoza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mendoza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Miguel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Miguel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mosquera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mosquera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Motta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Motta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Natalia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Natalia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#OCACIONAL"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Nicolas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Nicolas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ornela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ornela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Oscar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Oscar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#OCACIONAL"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Otis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Otis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pabon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pabon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Padilla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Padilla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Paola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Paola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Patricia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Patricia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Paula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Paula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Perez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Perez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pierre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Pierre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Polanco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Polanco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Polania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Polania">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Puff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Puff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rafael -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rafael">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramirez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramirez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ramos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Raul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Raul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Reiner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Reiner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ricardo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ricardo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rivas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rivas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Roberto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Roberto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rocio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rocio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Rosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Samara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Samara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Santiago -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Santiago">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_campussocial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_campussocial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_principal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_principal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Simon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Simon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Stiven -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Stiven">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PLANTA"/>
+        <ESTA_ADSCRITO_A rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <ES_CONTRATADO_POR rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sede_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Susana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Susana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sánchez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Sánchez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Teresa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Teresa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Thomas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Thomas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Tique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Tique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Torres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Torres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Trujillo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Trujillo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valderrama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valderrama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valentina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valentina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Valero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vanessa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vanessa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vargas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Vargas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Veronica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Veronica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Victoria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Victoria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Wanda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Wanda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ximena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ximena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Mandarin_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yarledy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yarledy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Diurno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yisela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yisela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yulithza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yulithza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yuliza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Yuliza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Zapata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Zapata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Frances_Diurno"/>
+        <MATRICULA_UN rdf:resource="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#Ingles_Nocturno"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#CURSO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PERSONAL"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ACADEMIA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#ESTUDIANTE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#NIVEL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/danielanuñez/ontologies/2024/ACADEMIA#PERSONAL"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
